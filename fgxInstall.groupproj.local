@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/12/01 11:46:30.000.014,C:\Users\William David\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj=C:\Program Files (x86)\Embarcadero\Studio\20.0\lib\Otros\FMX FGXFireMonkey\fgxInstall.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="D:\Components\fgx_rio\Library\fgx.dproj"/>
+	</Default.Personality>
+</BorlandProject>
