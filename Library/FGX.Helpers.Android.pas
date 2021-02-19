@@ -37,20 +37,21 @@ uses
 
 procedure ShowDialog(ADialog: JDialog; const ADialogID: Integer);
 begin
+  { 10.4 fix
   if IsGingerbreadDevice then
     MainActivity.showDialog(ADialogID, ADialog)
-  else
+  else }
     ADialog.show;
 end;
 
 procedure HideDialog(ADialog: JDialog; const ADialogID: Integer);
 begin
-  if IsGingerbreadDevice then
+  { 104. fix if IsGingerbreadDevice then
   begin
     MainActivity.dismissDialog(ADialogID);
     MainActivity.removeDialog(ADialogID);
   end
-  else
+  else }
     ADialog.dismiss;
 end;
 
